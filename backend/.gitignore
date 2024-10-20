@@ -1,0 +1,40 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+dist-ssr/
+
+# Local config files
+*.local
+
+# Operating system files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json  # Keep this file
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# Ignore any files or folders at the root of the project
+# This ensures any untracked files in parent directories are ignored
+../../../*
