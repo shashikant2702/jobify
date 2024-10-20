@@ -21,7 +21,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "",
+        "http://localhost:5000/api/v1/user/register",
         { name, phone, email, role, password },
         {
           headers: {
@@ -52,7 +52,7 @@ const Register = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="/careerconnect-black.png" alt="lohttp://localhost:5000/api/v1/user/registergo" />
+            <img src="/careerconnect-black.png" alt="logo" />
             <h3>Create a new account</h3>
           </div>
           <form>
